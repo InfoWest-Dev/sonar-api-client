@@ -8,7 +8,6 @@ use Kengineering\Sonar\Operations\Mutation;
 use Kengineering\Sonar\Operations\Query;
 use Exception;
 use GuzzleHttp\Client;
-use Illuminate\Support\Str;
 
 /**
  * @property int $id
