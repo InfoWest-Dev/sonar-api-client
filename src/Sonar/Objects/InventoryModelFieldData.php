@@ -36,4 +36,7 @@ class InventoryModelFieldData extends SonarObject
         'inventory_item' => 'one',
         'inventory_model_field' => 'one',
     ];
+
+    const OBJECT_MULTIPLE_NAME = 'inventory_model_field_data';
+
 }
