@@ -1,5 +1,8 @@
 # PHP Sonar API Client
 
+> **Warning**
+> This package is currently undergoing a major refactor and is not ready for production use. We are rebranding from `kengineering/sonar-api-client` to `infowest-dev/sonar-api-client` with breaking changes including namespace updates and improved credential handling. See `dev/docs/` for the migration plan.
+
 An object-oriented client for Sonar ISP management software's API. This client enables you to interact with Sonar's GraphQL API using PHP objects, supporting both individual and concurrent operations through queries and mutations.
 
 ## Installation
