@@ -1,0 +1,19 @@
+# Exclude from package distribution (composer archive / Packagist)
+/dev                export-ignore
+/tests              export-ignore
+/.github            export-ignore
+phpunit.xml         export-ignore
+phpunit.xml.dist    export-ignore
+.gitignore          export-ignore
+.gitattributes      export-ignore
+pint.json           export-ignore
+.php-cs-fixer.php   export-ignore
+CHANGELOG.md        export-ignore
+
+# Ensure consistent line endings
+* text=auto
+*.php text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
